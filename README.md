@@ -154,7 +154,7 @@ docker run -d -p 80:3000 bkimminich/juice-shop
 
 1. Login to the Google Cloud Console and
    [open Cloud Shell](https://console.cloud.google.com/home/dashboard?cloudshell=true).
-2. Launch a new GCE instance based on the juice-shop container. Take note of the `EXTERNAL_IP` provided in the output.
+2. Launch a new GCE instance based on the juice-shop container. Take note of the `EXTERNAL_IP` provided in the output. Rodrigo kotlevski teste2
 
 ```
 gcloud compute instances create-with-container owasp-juice-shop-app --container-image bkimminich/juice-shop
